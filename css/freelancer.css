@@ -23,11 +23,11 @@ a:active,
 a.active {
   color: #29B6F6;
 }
-.container a,
-.container a:hover,
-.container a:focus,
-.container a:active,
-.container a.active {
+header .container a,
+header .container a:hover,
+header .container a:focus,
+header .container a:active,
+header .container a.active {
   color: #FFF;
 }
 h1,
