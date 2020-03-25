@@ -9,6 +9,7 @@
     color: #000000;
     font-size: 18px;
     text-align: center;
+    text-decoration: none;
 }
 
 .custom_100 div a > div {
@@ -53,29 +54,58 @@
 
 .custom_100 .facebook {
     background-color: #3b5998;
+    color: #fff;
+    text-shadow: 0.03em 0.03em 0.03em black;
 }
 
 .custom_100 .instagram {
     background-color: #FCAF45;
+    text-shadow: 0.03em 0.03em 0.03em white;
 }
 
 .custom_100 .linkedin {
     background-color: #2867B2;
+    color: #fff;
+    text-shadow: 0.03em 0.03em 0.03em black;
 }
 
 .custom_100 .academia {
     background-color: #ffffff;
+    color: #333;
+    text-shadow: 0.01em 0.01em 0.01em black;
 }
 
 .custom_100 .twitter {
     background-color: #1DA1F2;
+    text-shadow: 0.02em 0.02em 0.02em white;
 }
 
 .custom_100 .youtube {
     background-color: #FF0000;
+    text-shadow: 0.01em 0.01em 0.01em white;
 }
 
 .custom_100 .github {
     background-color: #24292e;
     color: hsla(0,0%,100%,.7);
+    text-shadow: 0.01em 0.01em 0.01em white;
+}
+
+
+@media (max-width: 767px) {
+    #portfolio {
+        padding: 50px 0 0 0 !important;
+    }
+    .custom_100 div, .custom_100 div a {
+        min-height: auto !important;
+        margin-top: 0 !important;
+    }
+    .custom_100 div a {
+        padding: 20px 0 20px 0;
+    }
+}
+@media (max-width: 415px) {
+    #portfolio {
+        padding: 100px 0 0 0 !important;
+    }
 }
